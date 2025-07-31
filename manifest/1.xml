@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>HandsMen_Threads</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <types>
+        <members>HandsMen_Customer__c</members>
+        <members>HandsMen_Order__c</members>
+        <members>HandsMen_Product__c</members>
+        <members>Inventory__c</members>
+        <members>Marketing_Campaign__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>OrderTriggerHandler</members>
+        <members>InventoryBatchJob</members>
+        <name>ApexClass</name>
+    </types>
+
+    <types>
+        <members>OrderTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <types>
+        <members>Order_Confirmation_Flow</members>
+        <members>Stock_Alert_Flow</members>
+        <members>Loyalty_Status_Update_Flow</members>
+        <name>Flow</name>
+    </types>
+
+    <types>
+        <members>unfiled$public/Order_Confirmation_Email</members>
+        <members>unfiled$public/Low_Stock_Alert</members>
+        <members>unfiled$public/Loyalty_Program_Email</members>
+        <name>EmailTemplate</name>
+    </types>
+
+    <types>
+        <members>Platform 1</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Permission_Platform_1</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <types>
+        <members>Sales</members>
+        <members>Inventory</members>
+        <members>Marketing</members>
+        <name>Role</name>
+    </types>
+
+    <version>64.0</version>
+</Package>
